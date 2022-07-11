@@ -1,0 +1,58 @@
+
+<html>
+
+    <head>
+        <title>Hospital Managment</title>
+    </head>
+    
+    <body>
+        <form id="loginform">
+            <h3>Request Routine Dental Appointment Form</h3>
+            <label for="name">Name</label>
+            <input type="Text" name="name" id="fname" placeholder="First" />
+            <input type="Text" name="name" id="lname" placeholder="Last" />
+            <br><br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="### ### ####">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <br><br>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob" placeholder="MM/DD/YYYY" />
+            <label for="dateofappointment">Date Of Appointment</label>
+            <input type="date" id="dateofappointment" name="dateofappointment" placeholder="MM/DD/YYYY" />
+            <br><br>
+            <label for="doctor">Doctor Name</label>
+            <select name="doctor" id="doctor">
+                <option value="name">select Doctor Name</option>
+                <option value="Dr.Bindu Suresh">Dr.Bindu Suresh</option>
+                <option value="Dr.Rishab Clinic">Dr.Rishab Clinic</option>
+                <option value="Dr.Govind">Dr.Govind</option>
+            </select>
+            <label for="toa">Time Of Appointment</label>
+            <input type="time" id="toa" name="toa" placeholder="HH:MM AM" />
+            <br><br>
+            <p>Do you require dental surgery?</p>
+            <input type="radio" id="yes" name="yes" value="Yes">
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="no" value="No">
+              <label for="no">No</label>
+            <br>
+            <p>Have You Visited Our Dental Clinic Before?</p>
+            <input type="radio" id="yes1" name="yes1" value="Yes1">
+              <label for="yes">Yes</label>
+              <input type="radio" id="no1" name="no1" value="No1">
+              <label for="no">No</label>
+            <br>
+            <p>Have you experienced dental illnesses/surgeries in the past?</p>
+            <input type="radio" id="yes2" name="yes2" value="Yes2">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no2" name="no2" value="No2">
+              <label for="no">No</label>
+            <br><br>
+            <input type="submit" value="SUBMIT FORM" />
+        </form>
+    </body>
+    <script src="hm.js"></script>
+    
+    </html>

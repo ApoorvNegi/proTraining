@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <style>
+        #Parent, #Parent_1{
+            background-color: goldenrod;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #Child, #Child_1{
+            background-color: tomato;
+            padding: 10px;
+            color: aliceblue;
+        }
+    </style>
+    <body>
+        <a id="anc" href="https://www.google.com/">Google</a>
+        <!-- <button onclick="welcome()">Click me</button>
+        <button onmouseleave="welcome()">Click me 1</button> -->
+        <button id="btn">Click me</button>
+        
+        <div id="Parent">
+            This is a Parent.
+            <p id="Child">This is a Child</p>
+        </div>
+        
+        <div id="Parent_1">
+            This is a Parent.
+            <p id="Child_1">This is a Child</p>
+        </div>
+    </body>
+</html>
+<script src="./events.js"></script>
